@@ -34,8 +34,8 @@ function Home() {
       setJokeText(<> {joke.delivery}</>);
       // this sets our button get another joke so the user can try again.
       setButtonText('ONE MORE TIME! ONE MORE TIME!');
-      // when the user clicks this turns the button green
-      setButtonColor('green');
+      // when the user clicks this turns the button pink
+      setButtonColor('pink');
     }
   };
 
@@ -45,6 +45,7 @@ function Home() {
     setJokeText('');
     // this sets the button text state back to its state of get a joke
     setButtonText('Get a Joke');
+    setButtonColor('red');
   };
 
   return (
